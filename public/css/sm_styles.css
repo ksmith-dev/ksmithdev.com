@@ -1,0 +1,19 @@
+@media (min-width: 576px) {
+
+    .skill {
+        padding: 100px;
+    }
+
+    .skill h3 {
+        margin-top: 50px;
+    }
+
+    #accomplishments, #education, #form-div, #message, #dashboard, #search {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .skill-img {
+        float: left;
+    }
+}

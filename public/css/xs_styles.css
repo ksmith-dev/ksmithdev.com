@@ -1,0 +1,384 @@
+/***************************************************** GLOBAL CSS *****************************************************/
+body {
+    background-color: #343a40;
+}
+
+.error {
+    color: darkred;
+    font-weight: bolder;
+}
+
+.logo {
+    width: 100px;
+}
+
+.breadcrumb a {
+    color: ghostwhite;
+}
+
+#copyright {
+    color: ghostwhite;
+}
+
+#page-title {
+    background-color: #ffc107;
+    margin-top: 10px;
+    padding: 20px 0 15px 0;
+}
+
+#page-title h1 {
+    font-family: Raleway, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    color: #343a40;
+}
+
+#accomplishments, #education, #form-div, #message, #dashboard, #search, #register, #login {
+    padding: 15px 20px;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+/***************************************************** CONTACT CSS *****************************************************/
+
+#contact {
+    background-color: rgba(255, 193, 7, 0.7);
+    padding: 50px 0;
+}
+
+.contact {
+    background-color: #FFFFFF;
+    border: 0px solid #000000;
+    -webkit-box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    -moz-box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    padding: 80px;
+}
+
+#contact-info {
+    background-color: #FFFFFF;
+    border: 0px solid #000000;
+    -webkit-box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    -moz-box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    padding: 80px;
+}
+
+#contact-info img {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+}
+
+#contact-info a {
+    margin-top: 50px;
+    color: #1d2124;
+}
+
+#contact-info > div.row > div > a > img:hover {
+    opacity: 0.7;
+}
+
+.social-text {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/*************************************************** EXPERIENCE CSS ***************************************************/
+
+#experience {
+    background-color: rgba(255, 193, 7, 0.7);
+    padding: 20px 0;
+    color: #ffc107;
+    border: 0px solid #000000;
+    -webkit-box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    -moz-box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+}
+
+#experience hr {
+    border: #ffc107 1px solid;
+}
+
+.experience {
+    background-color: #343a40;
+    padding: 40px 80px;
+}
+
+#recommendations {
+    background-color: #ffc107;
+    padding: 20px 50px;
+}
+
+#recommendations .col {
+    padding: 20px;
+}
+
+.duration {
+    position: relative;
+    top: -25px;
+    float: right;
+}
+
+.company-logo {
+    float: right;
+}
+
+
+/****************************************************** SKILL CSS ******************************************************/
+
+#form-div, #message, #dashboard, #search {
+    background-color: #FFFFFF;
+}
+
+#accomplishments, #education {
+    background-color: #ffc107;
+}
+
+#skill {
+    padding: 5px 0 70px 0;
+    background-color: rgba(255, 193, 7, 0.7);
+}
+
+#accomplishments .col, #education .col, #form-div .col {
+    padding: 20px;
+}
+
+.skill {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 0px solid #000000;
+    -webkit-box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    -moz-box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+    box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.20);
+}
+
+.skill ul {
+    margin-top: 20px;
+    list-style: none;
+    text-indent: 20px;
+}
+
+.skill h3 {
+    font-family: "Courier New";
+    float: right;
+    position: relative;
+    bottom: 0;
+}
+
+.skill li {
+    font-family: "Courier New";
+}
+
+.skill-duration img {
+    width: 125px;
+    height: 100px;
+}
+
+.skill-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+.skill-duration {
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    width: 100px;
+}
+
+.skill-duration h6 {
+    font-family: "Courier New";
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 100%;
+}
+
+/***************************************************** LANDING CSS *****************************************************/
+
+#story {
+    font-family: Raleway, sans-serif;
+    padding: 50px;
+    background-color: #FFFFFF;
+}
+
+#story img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 100px;
+}
+
+#testing {
+    background-color: #ffc107;
+    padding: 100px;
+}
+
+.testing-title {
+    float: right;
+    letter-spacing:10px;
+    border-bottom: solid #000 1px;
+    padding-bottom: 5px;
+}
+
+/***************************************************** SLIDER CSS *****************************************************/
+
+#banner {
+    background-color: #2A3341;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin: 40px auto 0;
+    overflow: visible;
+    font-weight: bold;
+    color: #ffc107;
+    font-size: 4em;
+}
+
+#banner_01 .banner-text {
+    display: none;
+    position: relative;
+    top: -60px;
+}
+
+#banner_02 .banner-text {
+    display: none;
+}
+
+#banner_03 .banner-text {
+    display: none;
+    position: relative;
+    top: 60px;
+}
+
+#banner_01 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+#banner_02 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+#banner_03 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+hr {
+    border: solid 1px black;
+}
+
+/* ANIMATION */
+@keyframes cycle_in {
+    0%  { left: 100%; top: 0; } /* When you start the slide, the first image is already visible */
+    100%{ left: 0; top: 0; }
+}
+
+@keyframes cycle_out {
+    0%  { left: 0; top: 0; } /* When you start the slide, the first image is already visible */
+    100%{ left: 100%; top: 0; }
+}
+
+/******************************************************* SEARCH  *******************************************************/
+
+.search-result {
+    color: #1d2124;
+}
+
+.search-result:hover {
+    background-color: rgba(255, 193, 7, 0.2);
+}
+
+.search-result li {
+    list-style: none;
+}
+
+a.search-wrapper {
+    display: block;
+    text-decoration: none !important;
+    color: #1d2124;
+}
+
+ a.search-wrapper {
+    margin: 0 70px;
+}
+
+#search > table > tbody > tr {
+ cursor: pointer;
+}
+
+/************************************************* DEVELOPER DASHBOARD *************************************************/
+
+#process > .container > a {
+    display: block;
+    color: #1d2124;
+    text-decoration: none;
+    padding: 0 50px;
+}
+
+#experiences-tab.active, #skills-tab.active {
+    color: #ffc107;
+}
+
+#experiences-tab, #skills-tab {
+    color: #495057;
+}
+
+a.progress{
+
+}
+
+/************************************************* BOOTSTRAP OVERRIDES *************************************************/
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-brand {
+    position: relative;
+}
+
+.progress {
+    height: 25px;
+}
+
+.navigation {
+    padding: 20px 0;
+}
+
+.navigation .nav-link {
+    color: #dae0e5;
+    margin: 0 20px;
+}
+
+.navigation .nav-link:hover {
+    color: #ffc107;
+}
+
+.navigation .nav-link.active {
+    color: #ffc107;
+}
+
+#content-container {
+    background: url(/img/background/background.png) no-repeat center center fixed;
+}
+
+#copyright {
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+}
